@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App{
+  height: 100vh;
+  background: linear-gradient(313deg, #7759B8 30%, #4984D0 70%);
+  font-size: 14px;
+}
+
+.card{
+  width: 390px;
+    background: #f1f1f1;
+    
+}
+
+.input-field{
+  background: #f1f1f1;
+  border-bottom: 2px solid #adadad;
+  font-size: 14px;
+  padding-bottom: 9px;
+}
+
+.btn{
+  padding: 8px 17px;
+  border: 1px solid #adadad;
+  font-size: 14px;
+}
+.btn:focus{
+  box-shadow: none;
+}
+
+.btn:hover{
+  background: linear-gradient(313deg, #6a4bac 30%, #477ec5 70%);
+}
+
+.btnw{
+  width: 100%;
+}
+
+.btnclr{
+  background: linear-gradient(313deg, #7759B8 30%, #4984D0 70%);
+  color: #f1f1f1;
+}
+
+.link{color: #27689a;}
+
+.input-field:focus-visible {
+  outline: 0 !important;
+  border-bottom: 2px solid #4984d0;
+}
