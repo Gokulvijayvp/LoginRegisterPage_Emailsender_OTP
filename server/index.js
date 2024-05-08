@@ -61,13 +61,13 @@ async function sendEmail({ email, OTP }) {
         let transporter = nodemailer.createTransport({
             service: "gmail",
             auth: {
-                user: "gokulvijaykumarvp@gmail.com", 
-                pass: "lpsh mpzl najg ndel", 
+                user: "your email", 
+                pass: "your email password", 
             },
         });
 
         const mailConfig = {
-            from: 'gokulvijaykumarvp@gmail.com',
+            from: 'your email ',
             to: email,
             subject: 'PASSWORD RECOVERY',
             html: `<!DOCTYPE html>
